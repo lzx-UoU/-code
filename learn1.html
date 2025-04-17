@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Learn Web</title>
+    <style>
+
+        div {
+            font-size: 10px;
+            background-color: pink;
+            height: 50px;
+            line-height: 50px;
+        }
+
+        .div {
+            background-color: red;
+        }
+
+    </style>
+</head>
+<body>
+    <input type="text" placeholder="请输入用户名">
+<!--不会换行-->
+    <br><br>
+    <input type="password" placeholder="请输入用户密码">
+    <br><br>
+    <label><input type="radio" name="gender">男</label>
+    <input type="radio" name="gender" checked>女
+    <!--checked 默认选中-->
+    <br><br>
+    <label><input type="checkbox"> 冲浪</label>
+    <input type="checkbox"> 运动
+    <input type="checkbox"> 看剧
+    <br><br>
+    <input type="file" multiple>
+<!--multiple 上传多个文件-->
+    <br><br>
+    城市:
+    <select>
+        <option>江西</option>
+        <option>成都</option>
+        <option selected>上海</option>
+<!--selected 默认选中-->
+        <option>北京</option>
+    </select>
+    <br><br>
+    <textarea placeholder="请输入您的评论"></textarea>
+<!--会换行-->
+    <br><br>
+    <form>
+        用户:<input type="text" placeholder="请输入用户名">
+        <br><br>
+        密码:<input type="password" placeholder="请输入密码">
+        <br><br>
+        <button type="submit">登录</button>
+        <button type="reset">重置</button>
+    </form>
+    <br>
+    p&lt;10
+    p&gt;10
+    p&nbsp;&nbsp;&nbsp;&nbsp;10
+    <div class="div">测试垂直居中</div>
+    <!--行高等于高度使文字处于垂直居中的前提是单行文字-->
+</body>
+</html>
