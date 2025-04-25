@@ -237,4 +237,3 @@ with ThreadPoolExecutor(3) as executor:
 
 print(f"{now()}: All customers have been served.")
 """
-print('hello world')
